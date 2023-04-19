@@ -94,21 +94,22 @@ Pour identifier les entités, les attributs et les relations, les étapes suivan
 
 #### Prenons l'exemple d'un domaine bancaire pour illustrer ce processus
 
+
 ```mermaid
 graph LR
   A[Client]
-  A -->|a| B[Nom]
-  A -->|b| C[Prénom]
-  A -->|c| D[Date de naissance]
-  A -->|d| E[Compte]
-  E -->|e| F[Numéro de compte]
-  E -->|f| G[Solde]
-  E -->|g| H[Type de compte]
-  E -->|h| I[Transaction]
-  I -->|i| J[Montant]
-  I -->|j| K[Date]
-  I -->|k| L[Compte source]
-  I -->|l| M[Compte destination]
+  A --> B[Nom]
+  A --> C[Prénom]
+  A --> D[Date de naissance]
+  A --> E[Compte]
+  E --> F[Numéro de compte]
+  E --> G[Solde]
+  E --> H[Type de compte]
+  E --> I[Transaction]
+  I --> J[Montant]
+  I --> K[Date]
+  I --> L[Compte source]
+  I --> M[Compte destination]
 
   style A fill:#f9d71c
   style E fill:#34c240
