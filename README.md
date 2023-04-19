@@ -306,9 +306,8 @@ graph LR
 ### Identifier les Bounded Contexts
 Pour identifier les Bounded Contexts dans un domaine, il est recommandé de travailler en étroite collaboration avec les experts métier afin de comprendre les différentes parties et les limites du domaine. Une des façons de commencer est de créer une carte mentale ou un diagramme de haute niveau du domaine pour visualiser les différentes parties.
 
-Penser DDD ou Bonded Contexts, ne veut pas dire penser la modélisation de la base de données ou autres éléments de ce type en tant que tels, mais les interactions que ces éléments vont requérir, afin qu'elle reste un détail d'implémentation.
-Par exemple, la base de données est un élément pouvant être mis en place plus tard dans la réalisation de l'application, si de l'interfage pertinent la simule.
-Le but est de les borner dans un contexte afin de les isoler, favoriser sa maintenabilité et son évolutivité.
+Penser DDD ou Bounded Contexts ne veut pas dire penser la modélisation de la base de données ou autres éléments de ce type en tant que tels, mais les interactions que ces éléments vont requérir, afin qu'ils restent un détail d'implémentation.
+Par exemple, la base de données est un élément pouvant être mis en place plus tard dans la réalisation de l'application, si une interface pertinente la simule. Le but est de les borner dans un contexte afin de les isoler, favoriser leur maintenabilité et leur évolutivité.
 
 Ainsi, il convient ensuite d'examiner les interactions entre les différentes parties pour déterminer où les limites des Bounded Contexts devraient se situer. Cela implique de comprendre les différents processus métier et les flux de données dans le domaine.
 
