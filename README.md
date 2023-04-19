@@ -225,7 +225,7 @@ L'un des principes clés de DDD est l'utilisation d'un [langage ubiquitaire](htt
 3. [Éviter les termes techniques](#éviter-les-termes-techniques)
 
 ### 1. Comprendre l'importance du langage ubiquitaire
-Le langage ubiquitaire est important car il permet une communication claire et précise entre les différents membres de l'équipe de développement. En utilisant un langage commun, les experts métier peuvent transmettre leur connaissance du domaine aux développeurs, qui peuvent à leur tour créer un modèle précis et fidèle de ce domaine.
+Le langage ubiquitaire permet une communication claire et précise entre les différents membres de l'équipe de développement. En utilisant un langage commun, les experts métier peuvent transmettre leur connaissance du domaine aux développeurs, qui peuvent à leur tour créer un modèle précis et fidèle de ce domaine.
 
 Un langage commun permet également de réduire les malentendus et les erreurs de communication. Il facilite la collaboration entre les membres de l'équipe et permet à chacun de mieux comprendre les besoins et les objectifs de l'entreprise.
 
@@ -240,9 +240,9 @@ C --> D[Testeurs]
 [🔝 Retour à la sous table des matières](#table-des-matières-du-langage-ubiquitaire)
 
 ### 2. Utiliser le langage ubiquitaire
-Pour utiliser le langage ubiquitaire, il est important de créer un glossaire qui contient les termes clés et leur définitions. Ce glossaire doit être partagé par tous les membres de l'équipe et doit être mis à jour régulièrement au fil du développement du projet.
+Pour utiliser le langage ubiquitaire, il est commun de créer un glossaire qui contient les termes clés et leur définitions. Ce glossaire doit être partagé par tous les membres de l'équipe et doit être mis à jour régulièrement au fil du développement du projet.
 
-Il est également important de tenir compte des différents points de vue des membres de l'équipe. Les développeurs, les testeurs et les experts métier ont des perspectives différentes sur le projet et il est important de les prendre en compte lors de l'utilisation du langage ubiquitaire.
+Tenir compte des différents points de vue des membres de l'équipe est également essentiel. Les développeurs, les testeurs et les experts métier ont des perspectives différentes sur le projet et les mettre en synergie favorise une bonne compréhension et met en évidence d'éventuelles failles.
 
 #### Le diagramme suivant illustre comment les différents membres de l'équipe peuvent contribuer à l'utilisation du langage ubiquitaire :
 
@@ -257,9 +257,10 @@ D[Testeurs] --> B
 
 
 ### 3. Éviter les termes techniques
-Lors de l'utilisation du langage ubiquitaire, il est important d'éviter les termes techniques qui peuvent être mal compris par les membres de l'équipe qui ne sont pas familiers avec ces termes. Il est préférable d'utiliser des termes clairs et simples qui sont compris par tous les membres de l'équipe.
+Lors de l'utilisation du langage ubiquitaire, il convient d'eviter les termes techniques qui peuvent être mal compris par les membres de l'équipe, notamment lorsqu'ils ne sont pas familiers avec ces ceux-ci. 
+Aussi, il est préférable d'utiliser des mots clairs et simples, compris par tous.
 
-Il est également important de rester cohérent dans l'utilisation du langage ubiquitaire. Les termes doivent être utilisés de manière cohérente dans toute l'application pour éviter les confusions et les erreurs de communication.
+De même, il convient dans toute l'application de rester cohérent dans l'utilisation du langage ubiquitaire, afin d'éviter les confusions et les erreurs de communication.
 
 #### Exemple
 
@@ -303,15 +304,18 @@ graph LR
 3. [Créer un diagramme de contexte](#créer-un-diagramme-de-contexte)
 
 ### Identifier les Bounded Contexts
-Pour identifier les Bounded Contexts dans un domaine, il est important de travailler en étroite collaboration avec les experts métier afin de comprendre les différentes parties et les limites du domaine. Une façon de commencer est de créer une carte mentale ou un diagramme de haute niveau du domaine pour visualiser les différentes parties.
+Pour identifier les Bounded Contexts dans un domaine, il est recommandé de travailler en étroite collaboration avec les experts métier afin de comprendre les différentes parties et les limites du domaine. Une des façons de commencer est de créer une carte mentale ou un diagramme de haute niveau du domaine pour visualiser les différentes parties.
 
-Il convient ensuite d'examiner les interactions entre les différentes parties pour déterminer où les limites des Bounded Contexts devraient se situer. Cela implique de comprendre les différents processus métier et les flux de données dans le domaine.
+Penser DDD ou Bonded Contexts, ne veut pas dire penser la modélisation de la base de données ou autres éléments de ce type en tant que tels, mais les interactions que ces éléments vont requérir, afin qu'elle reste un détail d'implémentation.
+Par exemple, la base de données est un élément pouvant être mis en place plus tard dans la réalisation de l'application, si de l'interfage pertinent la simule.
+Le but est de les borner dans un contexte afin de les isoler, favoriser sa maintenabilité et son évolutivité.
+
+Ainsi, il convient ensuite d'examiner les interactions entre les différentes parties pour déterminer où les limites des Bounded Contexts devraient se situer. Cela implique de comprendre les différents processus métier et les flux de données dans le domaine.
 
 Une autre approche est d'utiliser des méthodes de [design thinking](https://fr.wikipedia.org/wiki/Design_thinking) pour identifier les besoins et les points de douleur des utilisateurs du système. Cela peut aider à identifier les différents cas d'utilisation et les fonctionnalités qui pourraient être regroupés en Bounded Contexts.
 
 Enfin, il est important de considérer les contraintes techniques et les aspects de la mise en œuvre lors de la définition des Bounded Contexts. 
-
-Ainsi, chaque contexte doit être autonome et isolé des autres, tout en permettant également de communiquer avec les autres contextes au besoin.
+Ce qui signifie que chaque contexte doit être autonome et isolé des autres, tout en permettant également de communiquer avec les autres contextes au besoin.
 
 #### Une application de e-commerce peut ainsi ressembler à ceci
 
