@@ -124,6 +124,7 @@ Lorsque les entités, les attributs et les relations ont été identifiés, il e
 #### Il existe plusieurs méthodes de modélisation, parmi lesquelles 
 
 1. UML (Unified Modeling Language) : UML est un langage de modélisation visuel largement utilisé pour représenter les modèles de conception et d'architecture logicielle. UML propose différents types de diagrammes, tels que les diagrammes de classe, les diagrammes d'objets, les diagrammes de cas d'utilisation et les diagrammes de séquence, pour représenter différentes facettes d'un système.
+
 	1.1 : Exemple d'outils
 	- [ArgoUML](http://argouml.tigris.org/)
 	- [StarUML](https://staruml.io/)
