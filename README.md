@@ -1,4 +1,6 @@
 
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Lang](https://img.shields.io/badge/Lang-Français-005EB8.svg)](#) [![Topic](https://img.shields.io/badge/Topic-DDD-brightgreen.svg)](#) [![Made with Markdown](https://img.shields.io/badge/Made%20with-Markdown-1f425f.svg)](https://www.markdownguide.org/)
 # [Tansoftware](https://www.tansoftware.com) - Domain Driven Design [![fr](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/France.png)](https://raw.githubusercontent.com/gosquared/flags/master/flags/flags/shiny/24/France.png)
 
 ## Table des matières
@@ -719,3 +721,22 @@ graph LR
     B -- Utilise --> E[Règle métier 3]
 ```
 [🔝 Retour en haut de page](#table-des-matières)
+
+
+## Pour aller plus loin
+
+- *Domain-Driven Design: Tackling Complexity in the Heart of Software* — Eric Evans (le « livre rouge »)
+- *Implementing Domain-Driven Design* — Vaughn Vernon (le « livre jaune »)
+- *Patterns, Principles, and Practices of Domain-Driven Design* — Scott Millett, Nick Tune
+- [DDD Reference (PDF)](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf) — synthèse officielle d Eric Evans
+- [DDD Crew](https://github.com/ddd-crew) — outils, *Bounded Context Canvas*, *Event Storming*
+- [EventStorming](https://www.eventstorming.com/) — méthode collaborative d Alberto Brandolini
+
+## Licence
+
+Distribué sous licence [MIT](LICENSE).
+
+## Auteur
+
+**Tansoftware - Tanguy Chénier** · [LinkedIn](https://www.linkedin.com/in/tanguy-chenier) · [Tan-Software](https://github.com/Tan-Software) · [Compte personnel (derniers outils)](https://github.com/tanguychenier) · [tansoftware.com](https://www.tansoftware.com)
+
